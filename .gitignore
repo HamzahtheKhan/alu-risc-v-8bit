@@ -1,0 +1,8 @@
+# Compiled binary files
+*.exe
+*.o
+
+# JetBrains IntelliJ files
+.idea/
+*.iml
+*.png
