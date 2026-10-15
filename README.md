@@ -3,7 +3,7 @@
 An 8-bit Arithmetic Logic Unit (ALU) implemented in C with an automated Python verification test code. 
 
 * **Project Motivation & Testing:**
-    * I wanted to understand how all computes happen at a hardware level, so I implemented an 8-bit RISC-V ALU in C. It supports standard arithmetic, bitwise logic, and logical shifting while computing hardware status flags like Zero, Negative, Carry, and Overflow. 
+    * I wanted to understand how all computation happen at a hardware level, so I implemented an 8-bit RISC-V ALU in C. It supports standard arithmetic, bitwise logic, and logical shifting while computing hardware status flags like Zero, Negative, Carry, and Overflow. 
     * To ensure proper testing and verification, I created a Python verification program that goes through over 1,000 randomized and edge-case tests. I focused heavily on 2's complement overflow boundaries where sign-extension errors may happen.
 
 ---
